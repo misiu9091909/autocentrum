@@ -1,0 +1,37 @@
+<%= form_for(@be_combine) do |f| %>
+  <% if @be_combine.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@be_combine.errors.count, "error") %> prohibited this be_combine from being saved:</h2>
+
+      <ul>
+      <% @be_combine.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :link %><br>
+    <%= f.text_field :link %>
+  </div>
+  <div class="field">
+    <%= f.label :start_year %><br>
+    <%= f.number_field :start_year %>
+  </div>
+  <div class="field">
+    <%= f.label :end_year %><br>
+    <%= f.number_field :end_year %>
+  </div>
+  <div class="field">
+    <%= f.label :techspec %><br>
+    <%= f.text_field :techspec %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Generations</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Link</th>
+      <th>Start year</th>
+      <th>End year</th>
+      <th>Kind</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @generations.each do |generation| %>
+      <tr>
+        <td><%= generation.name %></td>
+        <td><%= generation.link %></td>
+        <td><%= generation.start_year %></td>
+        <td><%= generation.end_year %></td>
+        <td><%= generation.kind %></td>
+        <td><%= link_to 'Show', generation %></td>
+        <td><%= link_to 'Edit', edit_generation_path(generation) %></td>
+        <td><%= link_to 'Destroy', generation, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Generation', new_generation_path %>

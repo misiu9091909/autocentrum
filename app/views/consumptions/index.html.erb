@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Consumptions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fuel type</th>
+      <th>Min</th>
+      <th>Max</th>
+      <th>Min long</th>
+      <th>Average</th>
+      <th>Official</th>
+      <th>Count</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @consumptions.each do |consumption| %>
+      <tr>
+        <td><%= consumption.fuel_type %></td>
+        <td><%= consumption.min %></td>
+        <td><%= consumption.max %></td>
+        <td><%= consumption.min_long %></td>
+        <td><%= consumption.average %></td>
+        <td><%= consumption.official %></td>
+        <td><%= consumption.count %></td>
+        <td><%= link_to 'Show', consumption %></td>
+        <td><%= link_to 'Edit', edit_consumption_path(consumption) %></td>
+        <td><%= link_to 'Destroy', consumption, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Consumption', new_consumption_path %>

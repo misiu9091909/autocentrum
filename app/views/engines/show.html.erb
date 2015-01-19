@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @engine.name %>
+</p>
+
+<p>
+  <strong>Link:</strong>
+  <%= @engine.link %>
+</p>
+
+<p>
+  <strong>Engine type:</strong>
+  <%= @engine.engine_type %>
+</p>
+
+<p>
+  <strong>Start year:</strong>
+  <%= @engine.start_year %>
+</p>
+
+<p>
+  <strong>End year:</strong>
+  <%= @engine.end_year %>
+</p>
+
+<%= link_to 'Edit', edit_engine_path(@engine) %> |
+<%= link_to 'Back', engines_path %>

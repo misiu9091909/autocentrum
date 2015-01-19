@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @body.name %>
+</p>
+
+<p>
+  <strong>Link:</strong>
+  <%= @body.link %>
+</p>
+
+<p>
+  <strong>Body type:</strong>
+  <%= @body.body_type %>
+</p>
+
+<p>
+  <strong>Start year:</strong>
+  <%= @body.start_year %>
+</p>
+
+<p>
+  <strong>End year:</strong>
+  <%= @body.end_year %>
+</p>
+
+<p>
+  <strong>Techspec:</strong>
+  <%= @body.techspec %>
+</p>
+
+<%= link_to 'Edit', edit_body_path(@body) %> |
+<%= link_to 'Back', bodies_path %>

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @generation.name %>
+</p>
+
+<p>
+  <strong>Link:</strong>
+  <%= @generation.link %>
+</p>
+
+<p>
+  <strong>Start year:</strong>
+  <%= @generation.start_year %>
+</p>
+
+<p>
+  <strong>End year:</strong>
+  <%= @generation.end_year %>
+</p>
+
+<p>
+  <strong>Kind:</strong>
+  <%= @generation.kind %>
+</p>
+
+<%= link_to 'Edit', edit_generation_path(@generation) %> |
+<%= link_to 'Back', generations_path %>

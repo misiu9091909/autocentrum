@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fuel_type: MyString
+  min: 1.5
+  max: 1.5
+  min_long: 1.5
+  average: 1.5
+  official: 1.5
+  count: 1
+
+two:
+  fuel_type: MyString
+  min: 1.5
+  max: 1.5
+  min_long: 1.5
+  average: 1.5
+  official: 1.5
+  count: 1

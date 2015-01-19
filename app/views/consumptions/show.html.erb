@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Fuel type:</strong>
+  <%= @consumption.fuel_type %>
+</p>
+
+<p>
+  <strong>Min:</strong>
+  <%= @consumption.min %>
+</p>
+
+<p>
+  <strong>Max:</strong>
+  <%= @consumption.max %>
+</p>
+
+<p>
+  <strong>Min long:</strong>
+  <%= @consumption.min_long %>
+</p>
+
+<p>
+  <strong>Average:</strong>
+  <%= @consumption.average %>
+</p>
+
+<p>
+  <strong>Official:</strong>
+  <%= @consumption.official %>
+</p>
+
+<p>
+  <strong>Count:</strong>
+  <%= @consumption.count %>
+</p>
+
+<%= link_to 'Edit', edit_consumption_path(@consumption) %> |
+<%= link_to 'Back', consumptions_path %>

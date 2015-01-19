@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @be_combine.name %>
+</p>
+
+<p>
+  <strong>Link:</strong>
+  <%= @be_combine.link %>
+</p>
+
+<p>
+  <strong>Start year:</strong>
+  <%= @be_combine.start_year %>
+</p>
+
+<p>
+  <strong>End year:</strong>
+  <%= @be_combine.end_year %>
+</p>
+
+<p>
+  <strong>Techspec:</strong>
+  <%= @be_combine.techspec %>
+</p>
+
+<%= link_to 'Edit', edit_be_combine_path(@be_combine) %> |
+<%= link_to 'Back', be_combines_path %>

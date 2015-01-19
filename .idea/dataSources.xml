@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2223404238">
+    <data-source source="LOCAL" name="Rails autocentrum: development" uuid="13ca0bb0-14d0-4b5d-8fe5-c4b3f1c0ef82">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:autocentrum_development</jdbc-url>
+      <user-name>misiu9091909</user-name>
+      <user-password>dfd9dfcddfc2dfc0df9ddf9adf9a</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails autocentrum: test" uuid="b2ad8260-635f-4e1f-ba99-8cb1e7bcbc8c">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:autocentrum_test</jdbc-url>
+      <user-name>misiu9091909</user-name>
+      <user-password>dfd9dfcddfc2dfc0df9ddf9adf9a</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails autocentrum: production" uuid="a1825f34-d8eb-47a1-916b-4930e4e8d447">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:autocentrum_production</jdbc-url>
+      <user-name>autocentrum</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfebdfffdffedfe5dfe9dfefdfe4dffedff8dfffdfe7dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

@@ -1,0 +1,45 @@
+<%= form_for(@consumption) do |f| %>
+  <% if @consumption.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@consumption.errors.count, "error") %> prohibited this consumption from being saved:</h2>
+
+      <ul>
+      <% @consumption.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :fuel_type %><br>
+    <%= f.text_field :fuel_type %>
+  </div>
+  <div class="field">
+    <%= f.label :min %><br>
+    <%= f.text_field :min %>
+  </div>
+  <div class="field">
+    <%= f.label :max %><br>
+    <%= f.text_field :max %>
+  </div>
+  <div class="field">
+    <%= f.label :min_long %><br>
+    <%= f.text_field :min_long %>
+  </div>
+  <div class="field">
+    <%= f.label :average %><br>
+    <%= f.text_field :average %>
+  </div>
+  <div class="field">
+    <%= f.label :official %><br>
+    <%= f.text_field :official %>
+  </div>
+  <div class="field">
+    <%= f.label :count %><br>
+    <%= f.number_field :count %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

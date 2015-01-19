@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Be Combines</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Link</th>
+      <th>Start year</th>
+      <th>End year</th>
+      <th>Techspec</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @be_combines.each do |be_combine| %>
+      <tr>
+        <td><%= be_combine.name %></td>
+        <td><%= be_combine.link %></td>
+        <td><%= be_combine.start_year %></td>
+        <td><%= be_combine.end_year %></td>
+        <td><%= be_combine.techspec %></td>
+        <td><%= link_to 'Show', be_combine %></td>
+        <td><%= link_to 'Edit', edit_be_combine_path(be_combine) %></td>
+        <td><%= link_to 'Destroy', be_combine, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Be combine', new_be_combine_path %>

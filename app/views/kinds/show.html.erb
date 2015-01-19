@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @kind.name %>
+</p>
+
+<p>
+  <strong>Link:</strong>
+  <%= @kind.link %>
+</p>
+
+<p>
+  <strong>Segment:</strong>
+  <%= @kind.segment %>
+</p>
+
+<%= link_to 'Edit', edit_kind_path(@kind) %> |
+<%= link_to 'Back', kinds_path %>

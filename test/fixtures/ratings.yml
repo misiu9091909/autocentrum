@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ratings_count: 1
+  again_count: 1
+  rates: 
+  again: 1
+
+two:
+  ratings_count: 1
+  again_count: 1
+  rates: 
+  again: 1

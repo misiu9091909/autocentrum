@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails autocentrum: development" uuid="13ca0bb0-14d0-4b5d-8fe5-c4b3f1c0ef82">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails autocentrum: test" uuid="b2ad8260-635f-4e1f-ba99-8cb1e7bcbc8c">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails autocentrum: production" uuid="a1825f34-d8eb-47a1-916b-4930e4e8d447">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
